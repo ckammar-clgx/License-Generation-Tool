@@ -15,5 +15,3 @@ public:
 	void encrypt(double julianDtTm, int gracePeriod);
 	double julianDtTm;
 };
-
-
