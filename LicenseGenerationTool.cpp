@@ -93,7 +93,7 @@ main ()
   while (true)
     {
       year = month = day = 0;
-      std::cout << "Enter licence date (YYYY-MM-DD): ";
+      std::cout << "Enter license date (YYYY-MM-DD): ";
       std::getline (std::cin >> std::ws, inputDate);
 
       // Check if the input string is a valid date format

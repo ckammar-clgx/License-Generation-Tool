@@ -56,8 +56,8 @@ EncryptDateTime::encrypt (double julianDtTm, int gracePeriod)
         }
     }
 
-  // Create a file and add encrypted licence date time
-  std::ofstream outFile ("License.txt");
+  // Create a file and add encrypted license date time
+  std::ofstream outFile ("license.txt");
 
   // Check if the file is successfully opened
   if (!outFile.is_open ())
@@ -73,5 +73,5 @@ EncryptDateTime::encrypt (double julianDtTm, int gracePeriod)
   outFile.close ();
 
   // Display an alert message box using Windows API
-  MessageBox (NULL, L"License.txt has been created!", L"Alert", MB_OK | MB_ICONEXCLAMATION);
+  MessageBox (NULL, L"license.txt has been created!", L"Alert", MB_OK | MB_ICONEXCLAMATION);
 }
